@@ -17,8 +17,6 @@ class Stack(list):
             return True
         return False
 
-    def clear(self):
-        pass
 
     def top(self):
         return self[-1]
